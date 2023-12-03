@@ -14,9 +14,9 @@ int main()
 		{
 			if (s[j]>s[j+1])
 			{
-				k = s[i];
-				s[i] = s[i+1];
-				s[i+1] = k;
+				k = s[j];
+				s[j] = s[j+1];
+				s[j+1] = k;
 			}
 		}
 	}
